@@ -1,7 +1,7 @@
-package com.gmm.javase.day02.relation.implat;
+package com.gmm.javase.day02.abstracts.implat;
 
 public class Test {
-    public static void makeFly(AirPlan airPlan,Bird bird){
+    public static void makeFly(AirPlan airPlan, Bird bird){
         if (airPlan.getFlyStyle()!=null)
             airPlan.fly();
         else {

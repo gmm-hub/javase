@@ -1,12 +1,13 @@
-package com.gmm.javase.day02.relation.implat;
+package com.gmm.javase.day02.abstracts.implat;
 
-public class Bird implements CanFly {
+public class AirPlan implements CanFly {
     private String flyStyle;
 
-    public Bird() {
+
+    public AirPlan() {
     }
 
-    public Bird(String flyStyle) {
+    public AirPlan(String flyStyle) {
         this.flyStyle = flyStyle;
     }
 
@@ -20,7 +21,6 @@ public class Bird implements CanFly {
 
     @Override
     public void fly() {
-        System.out.println("小鸟起飞方式："+flyStyle);
-
+        System.out.println("飞机起飞方式："+flyStyle);
     }
 }
